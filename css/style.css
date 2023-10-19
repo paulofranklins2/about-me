@@ -1,0 +1,106 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand, .dropdown-item:focus {
+    color: #fff;
+    outline: none;
+}
+
+/* Footer */
+.footer {
+    background-color: white;
+    color: #333;
+    padding: 20px 0;
+}
+
+/* Custom CSS for LinkedIn and GitHub icons */
+.social-icons a {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.social-icons a:hover {
+    text-decoration: none;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+.dark-mode .navbar {
+    background-color: #111;
+}
+
+.dark-mode .navbar-brand {
+    color: #fff;
+}
+
+.dark-mode .section {
+    background-color: #111;
+}
+
+.dark-mode .footer {
+    background-color: #333;
+}
+
+.dark-mode .social-icons a {
+    color: #fff;
+}
+
+/* Dark mode for the form submit button */
+.dark-mode .btn-dark {
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+
+.dark-mode .btn-dark:hover {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+/* Dark mode for text colors */
+.dark-mode .text-dark {
+    color: #ffffff !important;
+}
+
+.dark-mode .text-dark:hover {
+    color: #fffff1 !important;
+}
+
+.dark-mode .text-muted {
+    color: #ffffff !important;
+}
+
+.dark-mode .text-muted:hover {
+    color: #fffff1 !important;
+}
+
+.dark-mode #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: white;
+    color: #333;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
