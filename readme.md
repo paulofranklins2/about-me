@@ -54,9 +54,5 @@ I would like to thank the following technologies and libraries that made this pr
 - [Font Awesome](https://fontawesome.com)
 - [Bootstrap Icons](https://icons.getbootstrap.com)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 &copy; 2023 Paulo Cunha
